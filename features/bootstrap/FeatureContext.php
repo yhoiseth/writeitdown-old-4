@@ -20,4 +20,20 @@ class FeatureContext extends MinkContext
     public function __construct($entityManager)
     {
     }
+
+    /**
+     * @Then /^my user account should be created$/
+     */
+    public function myUserAccountShouldBeCreated()
+    {
+        throw new \Behat\Behat\Tester\Exception\PendingException();
+    }
+
+    /**
+     * @Given /^I should be logged in$/
+     */
+    public function iShouldBeLoggedIn()
+    {
+        throw new \Behat\Behat\Tester\Exception\PendingException();
+    }
 }
